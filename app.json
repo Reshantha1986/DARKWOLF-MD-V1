@@ -1,7 +1,7 @@
 {
-  "name": "DINUWA_MD",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛᴏʜɪᴅ ᴋʜᴀɴ",
-  "logo": "https://i.imgur.com/M1BzE37.jpeg",
+  "name": "DARKWOLF_MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ",
+  "logo": "config.ALIVE_IMG",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -10,13 +10,13 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": "DINUWA-MD"
+      "value": "DARKWOLF_MD"
     },  
     
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://i.imgur.com/M1BzE37.jpeg"
+      "value": "config.ALIVE_IMG"
     }, 
     
     "ALIVE_MSG": {
@@ -112,7 +112,7 @@
     "CAPTION": {
       "description": "enter your caption if you want to show on menu.",
       "required": true,
-      "value": "POWERED BY TOHID KHAN"
+      "value": "POWERED BY HIRANYA SATHSARA"
     }
 
 },
