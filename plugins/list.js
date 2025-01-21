@@ -5,10 +5,10 @@ const {runtime} = require('../lib/functions')
 const os = require("os")
 
 cmd({
-    pattern: "menu",
+    pattern: "list",
     desc: "get cmd list",
     category: "main",
-    react: "📖",
+    react: "📁",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -22,9 +22,7 @@ owner: '',
 convert: '',
 tools: '',
 search: '',
-movie: '',
 ai: '',
-news: '',
 fun: '',
 voice: '',
 other: ''
@@ -36,10 +34,9 @@ menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
  }
 }
 
-let madeMenu = `👋 *Hello ${pushname}*
+let madeMenu = `👋 *Hello ${pushname} *
 
-𝚆𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝙷𝚒𝚛𝚊𝚗-𝚖𝚍 𝚋𝚘𝚝 
-
+𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝗜𝗥𝗔𝗡-𝗠𝗗! 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ :ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ [ʜɪʀᴜᴡᴀ ᴛᴇᴄʜ]
 │◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
@@ -65,7 +62,10 @@ let madeMenu = `👋 *Hello ${pushname}*
 ╭──────────●●►
  🎬 *𝐌𝐎𝐕𝐈𝐄 𝐌𝐞𝐧𝐮*
   ───────
-  ${menu.movie}
+ .movie
+ .cinesubz
+ .ginisisila
+ .sinhalasub
 ╰───────────●●►
 ╭──────────●●►
  🎉 *𝐅𝐮𝐧 𝐌𝐞𝐧𝐮*
@@ -100,15 +100,21 @@ let madeMenu = `👋 *Hello ${pushname}*
 ╭──────────●●►
  📰 *𝐍𝐄𝐖𝐒 𝐌𝐞𝐧𝐮*
   ───────
- ${menu.news}
+ .news (English)
+ .derananews
+ .sirasanews
+ .hirunews
+ .startnews (auto news on)
+ .stopnews (auto news off)
 ╰───────────●●►
 ╭──────────●●►
  🛠️ *𝐓𝐨𝐨𝐥𝐬 𝐌𝐞𝐧𝐮*
   ───────
  ${menu.tools}
 ╰───────────●●►
+*👨‍💻ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ👨‍💻*
 
-*ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ 🔥*
+         > ⏤͟͟͞͞★❮ 𝙷𝙸𝚁𝙰𝙽 𝙼𝙳 ❯⏤͟͟͞͞★
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
 
