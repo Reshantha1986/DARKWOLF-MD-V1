@@ -1,12 +1,12 @@
 {
-  "name": "TOHID_MD",
+  "name": "DARK_WOLF-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name TOHID_MD",
-    "stop": "pm2 stop TOHID_MD",
-    "restart": "pm2 restart TOHID_MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name DARK_WOLF-MD",
+    "stop": "pm2 stop DARK_WOLF-MD",
+    "restart": "pm2 restart DARK_WOLF-MD"
   },
   "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
@@ -29,6 +29,7 @@
         "@tobyg74/tiktok-api-dl": "1.0.13",
         "@vitalets/google-translate-api": "9.2.0",
         "@whiskeysockets/baileys": "git+https://github.com/prabathLK/Baileys-6.0.0.git#master",
+        "pixaldrain-sinhalasub": "git+https://github.com/DarkMakerofc/pixaldrain-sinhalasub.git",
         "api-dylux": "latest",
         "aptoide-scraper": "1.0.1",
         "awesome-phonenumber": "7.2.0",
