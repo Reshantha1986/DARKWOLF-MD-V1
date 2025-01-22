@@ -50,7 +50,7 @@ const port = process.env.PORT || 9090;
 //=============================================
 
 async function connectToWA() {
-console.log("CONNECTING DINUWA_MD BOT🧬...");
+console.log("CONNECTING DARK_WOLF-MD BOT🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -78,7 +78,7 @@ require("./plugins/" + plugin);
 }
 });
 console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
-console.log('DINUWA_MD CONNECTED TO WHATSAPP ENJOY ✅')
+console.log('DARK_WOLF-MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `
 *[ •  DARKWOLF_MD - STARTED‎ • ]*
@@ -98,7 +98,7 @@ let up = `
 *│✫➠ - 🌐URL:* *https://github.com/hiran-md*
 *╰┈───────────────•*
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: [${prefix}]*
-*MODE : [config.MODE]
+*MODE : config.MODE*
 *•────────────•⟢*
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜɪʀᴜᴡᴀ
 *•────────────•⟢*
