@@ -42,7 +42,7 @@ async (conn, mek, m, { from, body, isOwner }) => {
 });
 
 //auto reply 
-cmd({
+/*cmd({
   on: "body"
 },    
 async (conn, mek, m, { from, body, isOwner }) => {
@@ -58,7 +58,7 @@ async (conn, mek, m, { from, body, isOwner }) => {
             }
         }
     }                
-});
+});*/
 
 
 //fake recording
