@@ -14,7 +14,7 @@ module.exports = {
     AUTO_VOICE: process.env.AUTO_VOICE || "true",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "true",
-    ALIVE_IMG: process.env.ALIVE_IMG || "https://raw.githubusercontent.com/hiran-md/Darkwolf-DATA_BASE/refs/heads/main/Logo/file-UtUL3R7BtcVRTn2Z2N21rv%20(1).webp?token=GHSAT0AAAAAAC5GPW4JAGIXIEHJ6LMKGAT2Z4PRO5Q",
+    ALIVE_IMG: process.env.ALIVE_IMG || "https://raw.githubusercontent.com/Reshantha1986/DARKWOLF-MD-V1/refs/heads/main/file-UtUL3R7BtcVRTn2Z2N21rv.webp",
     ANTI_LINK: process.env.ANTI_LINK || "false",
     ANTI_BAD: process.env.ANTI_BAD || "true",
     PREFIX: process.env.PREFIX || ".",
