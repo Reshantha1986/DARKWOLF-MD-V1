@@ -1,8 +1,3 @@
-/*created by Mr Tohid 🕵
-contact me 917849917350 ♻️
-© Copy coder alert ⚠
-*/
-
 const {
 default: makeWASocket,
 useMultiFileAuthState,
@@ -35,7 +30,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['+94727163302']
+const ownerNumber = ['+94768698018']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -86,7 +81,7 @@ console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
 console.log('DINUWA_MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `
-*[ •  DINUWA_MD - STARTED‎ • ]*
+*[ •  DARKWOLF_MD - STARTED‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *_Congratulations Your Bot Active Successfully_*
 *│  ◦*
@@ -96,19 +91,19 @@ let up = `
 *│  ◦*
 *│  ◦* *❁ ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ❁*
 *│  ◦*
-*│  ◦* *https://youtube.com/@Tohidkhan_6332*
+*│  ◦* *https://youtube.com/@hiruwatech2010
 *╰┈───────────────•*
 *[ •  B O T  - R E P O ‎ • ]*
 *╭┈───────────────•*
-*│✫➠ - 🌐URL:* *https://github.com/dinuwamd*
+*│✫➠ - 🌐URL:* *https://github.com/hiran-md*
 *╰┈───────────────•*
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: [${prefix}]*
-
+*MODE : [config.MODE]
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪɴᴜᴡᴀ 
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜɪʀᴜᴡᴀ
 *•────────────•⟢*
 `;
-conn.sendMessage(conn.user.id, { image: { url: `https://i.postimg.cc/HntYvQzS/IMG-20250118-WA0013.jpg` }, caption: up })
+conn.sendMessage(conn.user.id, { image: { url: `https://raw.githubusercontent.com/hiran-md/Darkwolf-DATA_BASE/refs/heads/main/Logo/file-UtUL3R7BtcVRTn2Z2N21rv%20(1).webp?token=GHSAT0AAAAAAC5GPW4JAGIXIEHJ6LMKGAT2Z4PRO5Q` }, caption: up })
 
 }
 })
@@ -209,11 +204,11 @@ conn.ev.on('messages.upsert', async (mek) => {
 
         
 //================ownerreact==============
-if(senderNumber.includes("917849917350")){
+/*if(senderNumber.includes("917849917350")){
 if(isReact) return
 m.react("👑")
-}
-if(senderNumber.includes("918930358452")){
+}*/
+/*if(senderNumber.includes("918930358452")){
 if(isReact) return
 m.react("👑")
 }
@@ -225,7 +220,7 @@ m.react("🦋")
 if(senderNumber.includes("917849917350")){
 if(isReact) return
 m.react("🎀")
-   }
+   }*/
 
 //==========================public react===============//
 // Auto React 
@@ -309,7 +304,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("HEY, DINUWA MD STARTED ✅");
+res.send("HEY,  DARK_WOLF-MD STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
