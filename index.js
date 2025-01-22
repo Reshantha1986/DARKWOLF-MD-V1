@@ -103,7 +103,7 @@ let up = `
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜɪʀᴜᴡᴀ
 *•────────────•⟢*
 `;
-conn.sendMessage(conn.user.id, { image: { url: `https://raw.githubusercontent.com/hiran-md/Darkwolf-DATA_BASE/refs/heads/main/Logo/file-UtUL3R7BtcVRTn2Z2N21rv%20(1).webp?token=GHSAT0AAAAAAC5GPW4JAGIXIEHJ6LMKGAT2Z4PRO5Q` }, caption: up })
+conn.sendMessage(conn.user.id, { image: { url: `https://raw.githubusercontent.com/Reshantha1986/DARKWOLF-MD-V1/refs/heads/main/file-UtUL3R7BtcVRTn2Z2N21rv.webp` }, caption: up })
 
 }
 })
